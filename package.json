@@ -1,14 +1,14 @@
 {
 	"name": "react-tailwindcss-learn",
-	"homepage": "https://github.com/NimeshBhevan/react-tailwindcss-learn/",
+	"homepage": "https://NimeshBhevan.github.io/react-tailwindcss-learn",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
 		"build": "tsc -b && vite build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"lint": "eslint .",
 		"preview": "vite preview"
 	},
